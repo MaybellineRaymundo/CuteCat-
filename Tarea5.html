@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuteCat! - Tu tienda tecnológica</title>
+    <link rel="stylesheet" href="Tarea5.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="logo">    CuteCat! <span class="bolt">🐾</span></div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="container intro">
+            <h1>Bienvenido al futuro</h1>
+            <p>En CuteCat! Brindamos información especifícamente en ropa para felinos,
+            Llevamos más de 7 años llevando felicidad a cada hogar a los amantes de los
+        felinos que tanto amamos.</p>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Nuestra Misión</h>
+                    <p>Que tu felino modele una ropa sensasional y fina.</p>
+                </div>
+                <div class="card">
+                    <h3>Nuestra Visión</h3>
+                    <p>Que nuestros clientes queden satisfechos con su exelente compra para sus felinos.  </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="container">
+            <h2>Nuestro productos estrella</h2>
+            <div class="accesorio-container">
+
+                <article class="product-card">
+                    <img src="./cat1.jpg" alt="Traje elegante de gato macho">
+                    <div class="card-content">
+                        <span class="brand">Macho</span>
+                        <h3>Traje de vestir para gato.</h3>
+                        <p>Talla L.</p>
+                        <p class="price">$19.99</p>
+                        <button class="btn-cart">Añadir al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="./cat2.jpg" alt="Traje de gata">
+                    <div class="card-content">
+                        <span class="brand">Hembra</span>
+                        <h3>Traje de vestir para gato.</h3>
+                        <p>Talla XS.</p>
+                        <p class="price">$19.99</p>
+                        <button class="btn-cart">Añadir al carrito</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="./cat3.jpg" alt="Traje unisex">
+                 
+                    <div class="card-content">
+                        <span class="brand">Unisex</span>
+                        <h3>Traje de invierno para gato.</h3>
+                        <p>Talla M</p>
+                        <p class="price">$14.99</p>
+                        <button class="btn-cart">Añadir al carrito</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contáctanos</h2>
+            <form action="#" class="contact-form">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" placeholder="Pablo Escobar" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" placeholder="correo@gmail.com" required>
+
+                <label for="message">Tu mensaje</label>
+                <textarea id="message" rows="4" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                
+                <button type="submit" class="btn-submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <p>&copy; 2026 Maybelline Raymundo CuteCat! El Salvador.</p>
+    </footer>
+
+</body>
+</html>
+
